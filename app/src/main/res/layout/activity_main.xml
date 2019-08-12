@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mainGenOutfit"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="casual"
+            android:text="Generate Outfit"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mainAddNewPiece"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:fontFamily="casual"
+            android:text="Add new clothing"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="CURRENT WEATHER"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/chicagoButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp" />
+
+        <Button
+            android:id="@+id/sfButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp" />
+
+        <Button
+            android:id="@+id/australiaButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
